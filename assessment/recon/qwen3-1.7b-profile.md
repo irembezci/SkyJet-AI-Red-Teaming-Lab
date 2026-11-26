@@ -24,7 +24,8 @@
 ## Context Window
 
 - Model-card context length: 32,768 tokens
-- Runtime context configuration: Not yet verified
+- Runtime-reported context length: 40,960 tokens
+- Runtime value verified via Ollama model inspection
 
 ## Potentially Relevant Security Characteristics
 
