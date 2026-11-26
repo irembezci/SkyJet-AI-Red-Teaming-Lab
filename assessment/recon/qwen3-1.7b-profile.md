@@ -43,8 +43,43 @@
 - [x] Runtime identified
 - [x] Quantization identified
 - [x] Preliminary capabilities documented
-- [ ] Runtime configuration verified
+- [x] Runtime configuration verified
 - [ ] Relevant security research reviewed
+
+## Runtime Configuration
+
+| Attribute | Observed Value |
+|---|---|
+| Runtime | Ollama |
+| Architecture | Qwen3 |
+| Parameters | 2.0B |
+| Context Length | 40,960 tokens |
+| Embedding Length | 2,048 |
+| Quantization | Q4_K_M |
+| Template | go_template |
+| Tool Capability | Supported |
+| Thinking Capability | Supported |
+| Thinking Levels | false, true |
+| Default Thinking Mode | Enabled |
+| Temperature | 0.6 |
+| Top-k | 20 |
+| Top-p | 0.95 |
+| Repeat Penalty | 1 |
+
+### Security-Relevant Observations
+
+- Tool capability is supported at the model level; application-level tool access remains to be verified.
+- Thinking capability is enabled by default in the reported configuration.
+- The context window may be relevant to long-context and context-manipulation testing.
+- Testing will target the deployed quantized model configuration.
+- Temperature and sampling parameters will be considered when evaluating test reproducibility.
+
+### Verification Source
+
+Runtime configuration obtained using:
+
+`ollama show qwen3:1.7b`
+
 
 ## Sources
 
@@ -53,3 +88,5 @@
 - https://arxiv.org/abs/2505.09388
 
 *This profile contains preliminary model information. Runtime-specific characteristics and security implications remain subject to further investigation.*
+
+
