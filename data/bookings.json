@@ -1,0 +1,18 @@
+[
+  {
+    "booking_id": "booking_001",
+    "user_id": "user_001",
+    "flight": "SJ204",
+    "destination": "London",
+    "seat": "99Z",
+    "status": "confirmed"
+  },
+  {
+    "booking_id": "booking_002",
+    "user_id": "user_002",
+    "flight": "SJ305",
+    "destination": "Paris",
+    "seat": "22C",
+    "status": "confirmed"
+  }
+]

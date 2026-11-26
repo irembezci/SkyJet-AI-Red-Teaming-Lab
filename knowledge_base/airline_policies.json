@@ -1,0 +1,74 @@
+[
+  {
+    "id": "baggage-001",
+    "category": "baggage",
+    "title": "Carry-on Baggage Policy",
+    "content": "Passengers in all cabin classes are allowed 1 carry-on bag (maximum 8 kg, 55x40x23 cm) and 1 personal item such as a laptop bag or small backpack (maximum 4 kg, 40x30x15 cm). Personal items must fit beneath the seat in front. Items exceeding limits must be checked at the departure gate for a $60 gate baggage fee."
+  },
+  {
+    "id": "baggage-002",
+    "category": "baggage",
+    "title": "Checked Baggage Allowances and Excess Fees",
+    "content": "Standard Economy includes 1 checked piece up to 23 kg. Business Class includes 2 checked pieces up to 32 kg each. Excess weight between 23 kg and 32 kg on Economy tickets incurs a $40 overweight fee. Additional separate bags cost a flat fee of $50 per piece on domestic routes and $90 on international routes."
+  },
+  {
+    "id": "baggage-003",
+    "category": "baggage",
+    "title": "Lost, Delayed, and Damaged Baggage",
+    "content": "Missing or damaged baggage must be reported at the airport baggage service desk before leaving the customs area to obtain a Property Irregularity Report (PIR). Claims for delayed baggage must be filed within 21 days of delivery. Baggage not located within 21 days is declared lost and eligible for compensation up to $1,700 under the Montreal Convention."
+  },
+  {
+    "id": "refund-001",
+    "category": "refund",
+    "title": "Cancellation and Voluntary Refund Rules",
+    "content": "Cancellations submitted at least 24 hours prior to scheduled departure receive a full refund minus a $30 administrative service fee per passenger. Cancellations made within 24 hours of departure are completely non-refundable; in such cases, only uncollected government airport taxes are refunded within 14 business days."
+  },
+  {
+    "id": "refund-002",
+    "category": "refund",
+    "title": "Flight Disruptions, Delays, and Airline Cancellations",
+    "content": "If a flight is cancelled by SkyJet or delayed by more than 3 hours, passengers are entitled to choose between a full 100% refund without deduction, or complimentary rebooking on the next available flight. Delays exceeding 4 hours include complimentary meal and refreshment vouchers."
+  },
+  {
+    "id": "booking-001",
+    "category": "booking",
+    "title": "Flight Changes and Rebooking Policy",
+    "content": "Voluntary flight date and route changes can be processed up to 3 hours before flight departure. Economy Flex and Business tickets allow 1 free date change; standard tickets incur a $45 change fee plus any applicable fare difference. Name changes or transfers to another individual are strictly prohibited."
+  },
+  {
+    "id": "checkin-001",
+    "category": "checkin",
+    "title": "Online and Airport Check-in Deadlines",
+    "content": "Online check-in opens 24 hours prior to departure and closes 60 minutes before domestic flights, 90 minutes before international flights. Airport check-in counters and baggage drop desks close strictly 45 minutes prior to scheduled departure for domestic flights and 60 minutes for international flights."
+  },
+  {
+    "id": "seat-001",
+    "category": "seat_upgrade",
+    "title": "Seat Selection and Extra Legroom Fees",
+    "content": "Standard seat selection is complimentary during the online check-in window. Advance standard seat selection prior to 24 hours costs $10. Extra Legroom and Exit Row seats cost $25 per segment. Passengers seated in Emergency Exit rows must be at least 15 years old, physically capable, and fluent in English."
+  },
+  {
+    "id": "seat-002",
+    "category": "seat_upgrade",
+    "title": "Cabin Upgrades to Business Class",
+    "content": "Upgrades from Economy to Business Class are subject to seat availability starting 48 hours prior to departure. Fixed upgrade pricing is $150 for short-haul flights and $350 for long-haul routes. Upgrades include Business lounge access, priority boarding, and increased baggage allowance."
+  },
+  {
+    "id": "pet-001",
+    "category": "pet_travel",
+    "title": "Cabin Pet Transportation (PETC)",
+    "content": "Only domestic cats and small dogs weighing up to 8 kg (including their leak-proof, ventilated carrier max 40x30x20 cm) are accepted inside the passenger cabin. A non-refundable fee of $45 applies per flight segment. Pet reservations must be completed at least 24 hours before flight departure due to cabin limits."
+  },
+  {
+    "id": "special-001",
+    "category": "special_assistance",
+    "title": "Wheelchair and Medical Assistance",
+    "content": "Wheelchair assistance from check-in to aircraft seat is provided free of charge but must be requested at least 48 hours prior to flight departure. Passengers traveling with personal battery-powered wheelchairs must declare battery specifications during booking for safety compliance."
+  },
+  {
+    "id": "infant-001",
+    "category": "infants_children",
+    "title": "Infant and Child Travel Policy",
+    "content": "Infants aged between 7 days and 2 years travel on an adult's lap for 10% of the adult fare plus taxes. One collapsible stroller or car seat is checked free of charge per infant. Children aged between 5 and 12 traveling alone must use the Unaccompanied Minor (UM) service with an additional fee of $70 per direction."
+  }
+]
