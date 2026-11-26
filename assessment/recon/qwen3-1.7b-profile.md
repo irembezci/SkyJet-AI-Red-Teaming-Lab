@@ -36,16 +36,6 @@
 | Context capacity | Investigate context manipulation and long-context behavior |
 | Quantization | Evaluate the deployed model configuration rather than assuming equivalence to the original model |
 
-## Recon Status
-
-- [x] Model identified
-- [x] Model family identified
-- [x] Runtime identified
-- [x] Quantization identified
-- [x] Preliminary capabilities documented
-- [x] Runtime configuration verified
-- [ ] Relevant security research reviewed
-
 ## Runtime Configuration
 
 | Attribute | Observed Value |
@@ -80,6 +70,40 @@ Runtime configuration obtained using:
 
 `ollama show qwen3:1.7b`
 
+## Model Security Research
+
+### Reference Study
+
+**Title:** Analysis of LLMs Against Prompt Injection and Jailbreak Attacks
+
+**Model evaluated:** Qwen3 1.7B
+
+**Reported baseline result:** 67/91 vulnerable cases (71.3%) in the prompt injection evaluation reported by the study.
+
+### Relevance to the Assessment
+
+- Provides an external benchmark reference for the target model family and size.
+- Supports prioritizing prompt injection testing during the assessment.
+- Provides a research-based starting point for selecting adversarial test categories.
+- Reported results are not assumed to represent the security posture of the SkyJet AI deployment.
+
+### Research Source
+
+- https://arxiv.org/abs/2602.22242
+
+### Assessment Note
+
+Published benchmark results will be used as research context only. SkyJet AI findings will be determined through independent testing of the deployed application.
+
+## Recon Status
+
+- [x] Model identified
+- [x] Model family identified
+- [x] Runtime identified
+- [x] Quantization identified
+- [x] Preliminary capabilities documented
+- [x] Runtime configuration verified
+- [x] Relevant security research reviewed
 
 ## Sources
 
